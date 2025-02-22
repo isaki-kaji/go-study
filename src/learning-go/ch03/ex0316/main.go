@@ -26,4 +26,7 @@ func main() {
 
 	v, ok = m["goodbye"]
 	fmt.Println(v, ok) // 0 true
+
+	delete(m, "hello")
+	fmt.Println(m)
 }
