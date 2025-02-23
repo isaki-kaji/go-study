@@ -11,4 +11,13 @@ func main() {
 	}
 
 	fmt.Println("finish.")
+
+	j := 2
+	for {
+		fmt.Println(j)
+
+		if j%2 == 0 {
+			break
+		}
+	}
 }
